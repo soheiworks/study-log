@@ -23,3 +23,6 @@ sscanf(<mark style="background: #9df578;">buf.</mark> <mark style="background: #
 <mark style="background: #FF70E35C;">"%s"</mark>：空白で区切られた1単語を読み取る
 <mark style="background: #70b8ff;">name</mark>：ユーザーから入力された結果を格納する変数
 
+
+sscanfの用途は、「コード内に書かれた文字列を分解して数値や単語」にする場合に向いている。
+
