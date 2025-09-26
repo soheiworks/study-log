@@ -31,5 +31,19 @@ printf("%d",(100 + 30) * 2);
 　%d / %G：%fまたは%eを自動選択
 
 ・文字 / 文字列
-
+　%c：文字
+　%s：文字列
+  
 ・ポインタ / その他
+　%p：ポインタ（実装依存の表記、通常は16進）
+　\%%：%そのもの
+
+・長さ修飾子（整数の大きさを指定）
+　hh：signed char / unsigned char
+　h  ：short
+　l  ：long
+　ll ：long long
+　z  ：size_t
+　j  ：intmax_t / uintmax_t
+　t  ：ptrdiff_t
+　L  ：long double （浮動小数点に使う）
