@@ -1,7 +1,7 @@
 printf の "f" はフォーマットの "f"
 
 
-printf("<mark style="background: #FFB8EBA6;">書式</mark>",値1, 値2, ...);
+printf("<mark style="background: #FFB8EBA6;">書式</mark>",値1, 値2, ...);  //←理論上はいくつでも値を入れられる
 
 
 
